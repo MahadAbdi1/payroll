@@ -10,7 +10,8 @@ public class ContactFactory {
 
 
        // String employeeNum = Helper.generatedId();
-        if (Helper.isNullOrEmpty(fName)|| Helper.isNullOrEmpty(lName) || Helper.isNullOrEmpty(contacNumber))
+        if (Helper.isNullOrEmpty(fName)|| Helper.isNullOrEmpty(lName) ||
+                Helper.isNullOrEmpty(contacNumber))
 
             return null;
 
