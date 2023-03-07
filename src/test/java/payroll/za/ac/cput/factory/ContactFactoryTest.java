@@ -1,8 +1,8 @@
 package payroll.za.ac.cput.factory;
 
 import org.junit.jupiter.api.Test;
-import payroll.za.ac.cput.domain.Contact;
-import payroll.za.ac.cput.domain.Employee;
+import payroll.za.ac.cput.domain.employee.Contact;
+import payroll.za.ac.cput.factory.employee.ContactFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
 

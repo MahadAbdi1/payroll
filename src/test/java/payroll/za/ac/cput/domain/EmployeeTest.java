@@ -1,6 +1,7 @@
 package payroll.za.ac.cput.domain;
 
 import org.junit.jupiter.api.Test;
+import payroll.za.ac.cput.domain.employee.Employee;
 
 public class EmployeeTest {
 
