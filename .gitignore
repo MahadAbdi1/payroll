@@ -1,4 +1,6 @@
 /*.idea
-pom.xml
-
+.pom.xml
+.idea
+.gitignore
+target
 
