@@ -10,7 +10,7 @@ class ContactFactoryTest {
     @Test
     public void testPassed(){
 
-        Contact contact = new ContactFactory().CreateEmployee(
+        Contact contact = new ContactFactory().CreateContact(
                 "Fanta","fanta","0834837112");
 
         assertNotNull(contact);
@@ -19,7 +19,7 @@ class ContactFactoryTest {
     @Test
     public void testFailled(){
 
-        Contact contact = new ContactFactory().CreateEmployee(
+        Contact contact = new ContactFactory().CreateContact(
                 "","fnta","0834837112");
 
         assertNotNull(contact);

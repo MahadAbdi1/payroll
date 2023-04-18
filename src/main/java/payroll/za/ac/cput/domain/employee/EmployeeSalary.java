@@ -10,6 +10,7 @@ public class EmployeeSalary {
         this.amount = amount;
     }
 
+
     public EmployeeSalary(Builder builder) {
 
         this.emloyeeName = builder.emloyeeName;

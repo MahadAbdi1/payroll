@@ -5,7 +5,7 @@ import payroll.za.ac.cput.utill.Helper;
 
 public class ContactFactory {
 
-    public static Contact CreateEmployee(String fName, String lName,String contacNumber){
+    public static Contact CreateContact(String fName, String lName, String contacNumber){
 
 
        // String employeeNum = Helper.generatedId();
